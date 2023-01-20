@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="172.19099mm"
+   height="172.19099mm"
+   viewBox="0 0 172.19099 172.19099"
+   version="1.1"
+   id="svg1095"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="gun.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1097"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.38062557"
+     inkscape:cx="102.4629"
+     inkscape:cy="633.16818"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1092" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.58671,29.464146)">
+    <path
+       id="path30607"
+       style="fill:#282828;fill-opacity:1;stroke-width:1.038;stroke-linejoin:round;stroke-dashoffset:1334.34;stroke-opacity:0.132964"
+       d="m 212.68243,-21.14728 a 77.641777,77.778648 0 0 0 -77.64178,77.77871 77.641777,77.778648 0 0 0 77.64178,77.77872 77.641777,77.778648 0 0 0 77.64177,-77.77872 77.641777,77.778648 0 0 0 -77.64177,-77.77871 z m 4.64571,40.27454 c 10.85244,-0.0114 21.01363,5.97082 29.48657,31.99391 49.1757,23.01257 3.41901,41.50517 -35.51153,39.86165 -38.46871,-1.61056 -71.3143,-29.34146 -30.94385,-44.46395 0.66454,-2.95881 1.3303,-23.34242 7.31119,-23.01358 9.96806,0.3082 20.08194,-4.36793 29.65762,-4.37803 z m -21.66741,6.41976 v 5.2e-4 c 4.31951,1.97249 31.566,9.53331 34.55603,7.23212 3.32267,-1.31502 2.6582,-1.97245 0.99683,-2.30115 -2.65813,1.64378 -7.30994,2.62985 -35.55286,-4.93149 z m 50.48839,25.90437 c -1.66152,7.56136 -42.19856,17.09564 -66.78611,1.64434 -0.33223,0.98583 -1.6614,6.57405 -0.99684,9.20409 5.64844,9.8627 57.15068,12.82184 67.78295,-0.98599 0,0 2.32587,-7.23244 0,-9.86244 z" />
+  </g>
+</svg>
