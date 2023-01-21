@@ -6,6 +6,7 @@
 	// Init
 	let interval: NodeJS.Timer;
 	let time = $duration * 60 * 1000;
+	const audio = new Audio('./audio/times-up.mp3');
 	$: person =
 		$people.length > 0
 			? $people[$currentIndex]
@@ -29,8 +30,13 @@
 	}
 
 	function timeup() {
-		incrementIndex();
-		$timerState = 'stopped';
+		audio.currentTime = 0;
+		audio.play();
+		$timerState = 'finished';
+		setTimeout(() => {
+			incrementIndex();
+			$timerState = 'stopped';
+		}, 5000);
 	}
 
 	function minutes(time: number) {
@@ -92,7 +98,7 @@
 </script>
 
 <section
-	class={$timerState == 'running' ? 'running' : ''}
+	class={$timerState == 'running' || $timerState == 'finished' ? $timerState : ''}
 	style="--color: {person.color}; --compliment: {person.colorCompliment}"
 >
 	<canvas class="background" id="granim-canvas" />
@@ -201,6 +207,24 @@
 		margin-bottom: 1rem;
 	}
 
+	.finished {
+		animation: pulse 1s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
+	}
+
+	@keyframes pulse {
+		0% {
+			transform: scale(1);
+		}
+
+		50% {
+			transform: scale(1.02);
+		}
+
+		100% {
+			transform: scale(1);
+		}
+	}
+
 	.arrow {
 		border-radius: 50%;
 		padding: 0;
@@ -241,7 +265,7 @@
 			border-radius: 0.8rem;
 		}
 
-        .background {
+		.background {
 			border-radius: 1rem;
 		}
 
@@ -278,6 +302,7 @@
 		}
 		.time {
 			font-size: 12vmin;
+			margin-bottom: 0;
 		}
 		.play-controls button span {
 			font-size: 12vmin;

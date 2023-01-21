@@ -7,7 +7,7 @@
 
 <main>
 	<header>
-		<img src="./lobsters_vs_mobsters.svg" alt="Lobsters vs Mobsters" />
+		<img src="./images/lobsters_vs_mobsters.svg" alt="Lobsters vs Mobsters" />
 		<h1>Mob Timer</h1>
 	</header>
 	<People

@@ -37,7 +37,7 @@
 >
 	<div class={$timerState == 'running' ? 'indicator running' : 'indicator'} />
 	<div class="icon">
-		<img src="./{person.icon}.svg" alt={person.icon} />
+		<img src="./images/{person.icon}.svg" alt={person.icon} />
 		<button on:click={deletePerson} class="delete">
 			<span class="material-symbols-outlined"> delete </span>
 		</button>
