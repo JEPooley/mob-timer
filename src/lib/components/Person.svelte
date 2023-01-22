@@ -143,20 +143,20 @@
 		color: rgb(230, 230, 230);
 	}
 
-    @media only screen and (max-width: 34rem) {
-        .icon {
-            width: 3rem;
-            height: 3rem;
-        }
+	@media only screen and (max-width: 34rem) {
+		.icon {
+			width: 3rem;
+			height: 3rem;
+		}
 
-        .delete {
-            height: 1.4rem;
-            width: 1.4rem;
-        }
+		.delete {
+			height: 1.4rem;
+			width: 1.4rem;
+		}
 
-        .indicator {
-            width: 0.5rem;
-            height: 0.5rem;
-        }
-    }
+		.indicator {
+			width: 0.5rem;
+			height: 0.5rem;
+		}
+	}
 </style>

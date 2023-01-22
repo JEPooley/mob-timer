@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Imports
-	import { incrementIndex, timerState } from '../settings';
+	import { timerState } from '../settings';
 	import Timer from '$lib/components/Timer.svelte';
 	import People from '$lib/components/People.svelte';
 </script>
