@@ -5,8 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-# Mob Timer ![Mobsters vs Lobsters Logo](https://raw.githubusercontent.com/JEPooley/mob-timer/main/static/favicon/android-chrome-512x512.png | width=50)
-
+# <img src="https://raw.githubusercontent.com/JEPooley/mob-timer/main/static/favicon/android-chrome-512x512.png" alt="Mobsters vs Lobsters Logo" width="40px" style="vertical-align: middle; margin-bottom: 10px; margin-right: 5px"> Mob Timer 
 Themed mob timer, for development teams who like to work collaboratively!
 
 [Enter, here!](https://sage-torrone-f73b4b.netlify.app/)
