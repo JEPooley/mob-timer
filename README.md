@@ -8,4 +8,4 @@
 # <img src="https://raw.githubusercontent.com/JEPooley/mob-timer/main/static/favicon/android-chrome-512x512.png" alt="Mobsters vs Lobsters Logo" width="40px" style="vertical-align: middle; margin-bottom: 10px; margin-right: 5px"> Mob Timer 
 Themed mob timer, for development teams who like to work collaboratively!
 
-[Enter, here!](https://sage-torrone-f73b4b.netlify.app/)
+See it deployed at [https://mobtimer.dev](https://mobtimer.dev)
