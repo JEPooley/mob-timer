@@ -31,7 +31,7 @@ export function HSVtoRGB(h: number, s: number, v: number): string {
 export function getRandomColors() {
 	const hue = Math.random();
 	const color = HSVtoRGB(hue, 0.8, 0.99);
-	const colorCompliment = HSVtoRGB((hue + 0.1) % 1, 0.8, 0.99);
+	const colorCompliment = HSVtoRGB((hue + 0.2) % 1, 0.8, 0.99);
 	return { color, colorCompliment };
 }
 

@@ -101,7 +101,7 @@
 	class={$timerState == 'running' || $timerState == 'finished' ? $timerState : ''}
 	style="--color: {person.color}; --compliment: {person.colorCompliment}"
 >
-	<canvas class="background" id="granim-canvas" />
+	<div class="background" />
 	<div class="timer">
 		<div class="time-controls">
 			<button class="arrow" id="increment-duration" on:click={incrementDuration}
@@ -148,8 +148,8 @@
 	}
 
 	.timer {
-		width: calc(100% - 1.6rem);
-		height: calc(100% - 1.6rem);
+		width: calc(100% - 1.2rem);
+		height: calc(100% - 1.2rem);
 		background: rgb(40, 40, 40);
 		position: absolute;
 		left: 50%;
@@ -173,6 +173,16 @@
 		box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
 		border-radius: 1.6rem;
 		position: absolute;
+	}
+
+	.background::after {
+		content: '';
+		position: absolute;
+		border-radius: inherit;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(90deg, var(--color) 0%, var(--compliment) 100%);
+		filter: blur(5px);
 	}
 
 	.time-controls {
@@ -259,14 +269,14 @@
 	@media only screen and (max-width: 34rem) {
 		.timer {
 			border-width: 0.6rem;
-			width: calc(100% - 1.4rem);
-			height: calc(100% - 1.4rem);
+			width: calc(100% - 1rem);
+			height: calc(100% - 1rem);
 			margin-bottom: 0;
 			border-radius: 0.8rem;
 		}
 
 		.background {
-			border-radius: 1rem;
+			border-radius: 1.2rem;
 		}
 
 		.time {
@@ -293,12 +303,12 @@
 			padding-bottom: 45%;
 		}
 		.timer {
-			width: calc(100% - 1rem);
-			height: calc(100% - 1rem);
+			width: calc(100% - 0.8rem);
+			height: calc(100% - 0.8rem);
 			border-radius: 0.6rem;
 		}
 		.background {
-			border-radius: 0.8rem;
+			border-radius: 1rem;
 		}
 		.time {
 			font-size: 12vmin;
